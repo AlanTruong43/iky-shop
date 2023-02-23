@@ -18,7 +18,7 @@
             <li><img class="logo" src="img/logo.png" alt=""></li>
             <li><a href="#">Trang chủ</a></li>
             <li><a href="#">Thiết bị điện thông minh ⬇</a>
-                <ul>
+                <ul id="TBD">
                     <li><a href="#">Công tắc điện cảm ứng thông minh</a></li>
                     <li><a href="#">Ổ cắm điện cảm ứng thông minh</a></li>
                     <li><a href="#">Thiết bị giám sát điện thông minh</a></li>
@@ -71,15 +71,26 @@
         <img src="index/den-xe-may.png" alt="">
     </div>
     <div class="slideshow">
-        <img src="index/nha-cung-cap.png" class="active">
-        <img src="index/doi-tac.png" alt="">
-         <img src="index/nha-cung-cap.png" alt="">
-         <img src="index/doi-tac.png" alt="">
+        <div class="slides-container">
+          <img src="index/nha-cung-cap.png" class="active">
+          <img src="index/doi-tac.png">
+          <img src="index/nha-cung-cap.png">
+        </div>
         <div class="controls">
           <i id="btl" class="fa-sharp fa-solid fa-circle-left"></i>
           <i id="btr" class="fa-sharp fa-solid fa-circle-right"></i>
         </div>
-      </div>    
+        <div class="dots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <div class="slideshow-title-container">
+          <h1 class="slideshow-title active">NHÀ CUNG CẤP</h1>
+          <h1 class="slideshow-title">ĐỐI TÁC</h1>
+          <h1 class="slideshow-title">KHÁCH HÀNG</h1>
+        </div>          
+      </div>
     <div class="footer1">
         <ul class="f1">
             <li>Chăm sóc khách hàng</li>
